@@ -1,0 +1,40 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: pink;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+
+    .logo{
+        align-self: center;
+        color: rgb(173, 138, 190);
+    }
+
+    ul{
+        width: 60%;
+        list-style: none;
+        margin: 0;
+        display: flex;
+        
+    }
+
+    a{
+        width: (50% / 3);
+        text-decoration: none;
+        padding: 10px 10px;
+        margin: 0;
+        text-align: center;
+
+        &:hover{
+            background-color: rgb(77, 56, 59);
+            color:white;
+            cursor: pointer;
+    }
+}
+}
